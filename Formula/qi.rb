@@ -11,20 +11,20 @@
 class Qi < Formula
   desc "奇语言 —— 100% 中文关键字的原生编译语言（LLVM 后端，AI 原语内置）"
   homepage "https://github.com/qilang-project/qi"
-  version "2026.07.10-1"
+  version "2026.07.10-2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/qilang-project/qi/releases/download/2026.07.10-1/qi-2026.07.10-1-macos-arm64.tar.gz"
-      sha256 "73fa788046c7b76dcaec30e35b65e89f0ea13cf4e2790b0488ce10a85dbb8759"
+      sha256 "ccc9a2a7adcda39f14ae1abda95de977c5a1c7801b6650f2de59c99528003b25"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/qilang-project/qi/releases/download/2026.07.10-1/qi-2026.07.10-1-linux-x64.tar.gz"
-      sha256 "3a490bb0bd0a6cd5c0a33d83b718a31fd846e96eadf1eed3b0f8ec0292358349"
+      sha256 "6073e0b0e5b14fe2060cde6e8749c28c4f355059587790230297cb0f2b22bf1d"
     end
   end
 
