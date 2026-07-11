@@ -16,14 +16,14 @@ class Qi < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/qilang-project/qi/releases/download/2026.07.10-1/qi-2026.07.10-1-macos-arm64.tar.gz"
+      url "https://github.com/qilang-project/qi/releases/download/2026.07.10-2/qi-2026.07.10-2-macos-arm64.tar.gz"
       sha256 "ccc9a2a7adcda39f14ae1abda95de977c5a1c7801b6650f2de59c99528003b25"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/qilang-project/qi/releases/download/2026.07.10-1/qi-2026.07.10-1-linux-x64.tar.gz"
+      url "https://github.com/qilang-project/qi/releases/download/2026.07.10-2/qi-2026.07.10-2-linux-x64.tar.gz"
       sha256 "6073e0b0e5b14fe2060cde6e8749c28c4f355059587790230297cb0f2b22bf1d"
     end
   end
